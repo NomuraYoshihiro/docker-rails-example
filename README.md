@@ -1,24 +1,14 @@
 # README
+docker-compose で簡単なrails環境を構築
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- コンテナ作成・起動(バックグラウンド)
+  - `docker-compose up -d`
+- コンテナ削除
+  - `docker-compose down`
+- コンテナ起動
+  - `docker-compose start`
+- コンテナ停止
+  - `docker-compose stop`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- コマンド実行
+  - `docker-compose run web コマンド`
